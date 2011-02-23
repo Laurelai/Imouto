@@ -1,16 +1,8 @@
 #!/bin/sh
 
 lb config noauto \
-<<<<<<< HEAD
      --architecture i386 \
      --linux-flavours 686 \
      --packages-lists gnome \
      --packages "iceweasel irssi nano vidalia perl gcc python ruby adduser aide apt-utils" \
      "${@}"
-=======
-       --architecture i386 \
-       --linux-flavours 686 \
-       --packages-lists gnome \
-       --packages "iceweasel irssi nano vidalia perl gcc python ruby adduser aide apt-utils" \
-       "${@}"
->>>>>>> f814b9f31f672c2c03a86bc1c20cdfbcff22a30c
