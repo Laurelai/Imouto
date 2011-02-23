@@ -4,5 +4,5 @@
        --architecture i386 \
        --linux-flavours 686 \
        --packages-lists gnome \
-       --packages "iceweasel irssi nano vidalia perl gcc python ruby haskell libdevel adduser aide apt-utils" \
+       --packages "iceweasel irssi nano vidalia perl gcc python ruby adduser aide apt-utils" \
        "${@}"
