@@ -4,5 +4,5 @@ lb config noauto \
     --architecture i386 \
     --linux-flavours 686 \
     --packages-lists gnome \
-    --packages "iceweasel irssi nano vidalia perl gcc python ruby adduser aide apt-utils acidbase auditd python-audit libaudit-dev libaudit0 ccrypt checksecurity chkrootkit cron samhain openssl" \
+    --packages "iceweasel irssi irssi-plugin-silc loop-aes-utils ecryptfs-utils nano vidalia perl gcc python ruby adduser aide apt-utils acidbase auditd python-audit libaudit-dev libaudit0 ccrypt checksecurity chkrootkit cron samhain tiger linux-patch-grsecurity2 openssl" \
     "${@}"
